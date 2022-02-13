@@ -2,7 +2,8 @@
   <div id="app">
     <div class="container">
       <presentation/>
-      <NavBar/>
+      <projects/>
+      <competences/>
     </div>
   </div>
 </template>
@@ -10,13 +11,15 @@
 <script>
 
 import Presentation from "@/components/Presentation"
-import NavBar from "@/components/NavBar"
+import Projects from "@/components/Projects";
+import Competences from "@/components/Competences";
 
 export default {
   name: 'App',
   components: {
+    Competences,
+    Projects,
     Presentation,
-    NavBar
   }
 }
 </script>
@@ -42,5 +45,16 @@ export default {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+.title {
+  margin-left: 50px;
+  margin-right: 50px;
+}
 
+.title h1 {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.title hr {
+}
 </style>
