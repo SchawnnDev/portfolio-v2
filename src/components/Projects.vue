@@ -34,8 +34,21 @@
             </ul>
         </div>
       </div>
+      <div class="project">
+        <h2 class="project-title">
+          Gestionnaire de notes
+        </h2>
+        <img class="project-image" alt="Gestionnaire de notes" src="../assets/projects/notes.png">
+        <div class="project-description">
+          Site crée avec un ami, pour avoir un aperçu de nos notes et calculer la moyenne de notre semestre.
+          <ul>
+            <li>VueJS</li>
+            <li>Django</li>
+          </ul>
+        </div>
+      </div>
     </div>
-    <p>Si vous souhaitez voir plus de projets, n'hesitez pas à consulter mon <u><a href="https://gitlab.com/SchawnnDev">GitHub</a></u>.</p>
+    <p>Si vous souhaitez voir plus de projets, n'hesitez pas à consulter mon <u><a href="https://github.com/SchawnnDev">GitHub</a></u>.</p>
   </div>
 </template>
 
