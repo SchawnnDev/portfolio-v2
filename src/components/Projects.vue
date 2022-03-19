@@ -88,4 +88,18 @@ export default {
   text-align: left;
   font-size: 18px;
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /* Phones */
+  .projects {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .project {
+    width: 80vw;
+  }
+
+}
+
 </style>

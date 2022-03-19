@@ -35,11 +35,13 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  width: 100%;
+  overflow-y:hidden;
 }
 
 .container {
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 18%;
+  margin-right: 18%;
 
   border: #2c3e50 solid 2px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -56,5 +58,27 @@ export default {
 }
 
 .title hr {
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+  /* Tablets */
+  .container {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /* Phones */
+  .container {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .title h1 {
+    font-size: 26px;
+  }
+
 }
 </style>
