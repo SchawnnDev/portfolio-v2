@@ -89,7 +89,7 @@ export default {
   font-size: 18px;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 600px) {
   /* Phones */
   .projects {
     align-items: center;
